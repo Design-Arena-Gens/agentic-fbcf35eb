@@ -1,0 +1,41 @@
+{
+  "name": "cursor_gpt5-project-fbcf35eb-a46b-4423-83ae-c6c6d2cd63ec",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "NEXT_TELEMETRY_DISABLED=1 next build",
+    "start": "next start",
+    "lint": "eslint",
+    "vercel:deploy": "vercel deploy --prod --yes --name agentic-fbcf35eb"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "bcryptjs": "^3.0.2",
+    "docxtemplater": "^3.66.7",
+    "docxtemplater-image-module-free": "^1.1.1",
+    "ethers": "^6.15.0",
+    "file-type": "^21.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.1",
+    "next": "15.5.6",
+    "pizzip": "^3.2.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.6",
+    "lightningcss": "^1.30.2",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.18",
+    "typescript": "5.9.3"
+  }
+}
